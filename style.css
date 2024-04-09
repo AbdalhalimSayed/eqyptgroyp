@@ -1,0 +1,204 @@
+
+/* CSS مخصص */
+    body {
+      padding-top: 70px; /* للتعويض عن ارتفاع شريط التنقل */
+      direction: rtl;
+      line-height: 200%;
+      font-size: 18px;
+    }
+     
+    .navbar-brand img{
+      width: 70px;
+      height: 70px;
+      /* color: rgb(52, 152, 219); */
+    }
+    .home {
+      margin-bottom: 20px;
+    }
+    .home p{
+      line-height: 35px;
+    }
+    .home p a{
+      font-size: x-large;
+      color: #2ecc71;
+
+    }
+    .home img{
+      width: 100%;
+      height: 650px;
+    }
+    .option .sevices img{
+      width: 250px;
+      height: 250px;
+    }
+    .option .sevices a{
+      font-size: x-large;
+      color: #2ecc71;
+    }
+    /* الخدمات */
+    .sevice{
+      line-height: 35px;
+    }
+    /* type conditioning */
+    .typesAir{
+      line-height: 35px;
+    }
+
+    /*  problem air-condition */
+    .problemAir{
+      line-height: 35px;
+    }
+    /* way fix air */
+    .wayride{
+      line-height: 35px;
+    }
+    @media (min-width: 970px) {
+      /* Add your CSS rules here */
+      .collapse{
+        position: relative;
+        right: 400px;
+      }
+      .nav-item{
+        padding: 0px 20px;
+      }
+    }
+    .card {
+      min-width: 300px;
+      max-height: 800px;
+      margin: 20px auto;
+    }
+    
+    .card:hover{
+      box-shadow: 10px 5px 10px #DDD;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+    .content{
+      max-width: 250px;
+      position: fixed;
+      top: 200px;
+      right: 0px;
+      z-index: 1000;
+    }
+    .content p{
+      padding: 20px;
+      background-color: blue;
+      border-radius: 30px 5px 5px 30px;
+      box-shadow: 0 5px 10px #0000ffb4, 0 -5px 10px #0000ffb4, -7px 0 10px #0000ffb4;
+    }
+    .txt{
+      font-size: 20px;
+      color: wheat;
+      display: none;
+
+    }
+    .icn{
+      font-size: 23px;
+      color: wheat;
+      padding-right: 5px;
+    }
+    .content p:hover .txt{
+      display: block;
+      float: right;
+    }
+    .community{
+      max-width: 250px;
+      position: fixed;
+      top: 320px;
+      right: 0px;
+      z-index: 1000;
+    }
+    .community p{
+      padding: 20px;
+      background-color: green;
+      border-radius: 30px 5px 5px 30px;
+      box-shadow: 0 5px 10px #0080009b, 0 -5px 10px #0080009b, -7px 0 10px #0080009b;
+    }
+    .community p:hover .txt{
+      display: block;
+      float: right;
+    }
+    .contantus{
+      padding-bottom: 10px;
+      margin-bottom: 5px;
+      background-color: #3498db ;
+      font-size: 18px;
+      border-radius: 20px;
+
+    }
+    .contantus p{
+      padding-top: 10px;
+
+    }
+    .contantus p a{
+      color: #f39c12 ;
+  
+    }
+    .contantus a{
+
+      font-size: 30px;
+      text-decoration: none;
+      color: #2ecc71 ;
+  
+    }
+    
+    
+    .comunication{
+      padding-bottom: 10px;
+      margin-bottom: 5px;
+      background-color: #0dc33e;
+      font-size: 18px;
+      border-radius: 20px;
+      color: white;
+
+    }
+    .comunication p{
+      padding-top: 10px;
+  
+    }
+    .comunication a{
+     font-size: 30px;
+      text-decoration: none;
+      color: white;
+  
+    }
+
+/* footer */
+footer{
+  margin-top: 50px;
+  /* background-color: #3498db ; */
+  
+}
+.conect i{
+  color: #0dc33e;
+  font-size: 24px;
+  /* padding-top: 30px; */
+  padding: 30px 0px 0px 0px;
+}
+.conect a{
+  text-decoration: none;
+  color: #f39c12;
+  font-size: 24px;
+
+}
+.conect a:hover{
+  color: #0dc33e;
+}
+.social i{
+  font-size: 24px;
+  color: #0dc33e;
+
+  /* padding-top: 30px; */
+  padding: 30px 0px 0px 0px;
+}
+.social a{
+  text-decoration: none;
+  color: #f39c12;
+  font-size: 24px;
+
+}
+.social a:hover{
+  color: #00ffff;
+}
